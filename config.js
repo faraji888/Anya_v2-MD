@@ -8,23 +8,28 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 }
 
 
-global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
-global.packname = process.env.PackName || "Queen Anya v2 MD" 
-global.myweb = process.env.Web || "https://github.com/PikaBotz" 
-global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
-global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
+global.botname = process.env.BotName || "
+# 𝐆𝐁𝐗 /#/ 𝑵𝑨𝑹𝑪𝑰𝑺𝑺𝑰𝑺𝑻𝑰𝑪" 
+global.author = process.env.Author ||"
+𝑵𝑶 𝑺𝑷𝑨𝑴 ⚡ 𝑨𝑵𝑫 𝑵𝑶 𝑪𝑨𝑳 𝑴𝑬 🌎" 
+global.packname = process.env.PackName ||"
+# 𝐆𝐁𝐗 /#/ 𝑵𝑨𝑹𝑪𝑰𝑺𝑺𝑰𝑺𝑻𝑰𝑪 !" 
+global.myweb = process.env.Web || "https://cloud.mongodb.com/v2/656b2be82d73fe14e90394ba#/overview" 
+global.footer = process.env.Footer || "© 
+𝑵𝑶 𝑺𝑷𝑨𝑴 ⚡ 𝑨𝑵𝑫 𝑵𝑶 𝑪𝑨𝑳 𝑴𝑬 🌎" 
+global.prefa = process.env.Prefix || ['false'] 
+global.themeemoji = process.env.ThemeEmoji || "👻" 
+global.ownername = process.env.Owner_Name || "
+# 𝐆𝐁𝐗 /#/ 𝑵𝑨𝑹𝑪𝑰𝑺𝑺𝑰𝑺𝑻𝑰𝑪" 
+global.ownernumber = process.env.Owner_Number || "212608432044" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "https://cloud.mongodb.com/v2/656b2be82d73fe14e90394ba#/overview"; 
 
-global.warns = process.env.Warns_Limits || 3; 
+global.warns = process.env.Warns_Limits || 5; 
 
 global.badWords = [
   "vagina",
@@ -101,26 +106,28 @@ global.message = {
 },
 
 module.exports = {
-  botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
-  myweb: process.env.Web || "https://github.com/PikaBotz",
-  footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
-  themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
-  adress: process.env.Continent || "Asia, India, Assam",
-  timezone: process.env.TimeZone || "Asia/Kolkata", 
+  botname: process.env.BotName || "# 𝐆𝐁𝐗 /#/ 𝑵𝑨𝑹𝑪𝑰𝑺𝑺𝑰𝑺𝑻𝑰𝑪", 
+  author: process.env.Author || "@GBX-ZONE-MR",
+  packname: process.env.PackName || "
+# 𝐆𝐁𝐗 /#/ 𝑵𝑨𝑹𝑪𝑰𝑺𝑺𝑰𝑺𝑻𝑰𝑪 !",
+  myweb: process.env.Web || "wa.me//212608432044",
+  footer: process.env.Footer || "© 
+𝑵𝑶 𝑺𝑷𝑨𝑴 ⚡ 𝑨𝑵𝑫 𝑵𝑶 𝑪𝑨𝑳 𝑴𝑬 🌎",
+  prefa: process.env.Prefix || ['false'],
+  themeemoji: process.env.ThemeEmoji || "👻",
+  ownername: process.env.Owner_Name || "# 𝐆𝐁𝐗 /#/ 𝑵𝑨𝑹𝑪𝑰𝑺𝑺𝑰𝑺𝑻𝑰𝑪",
+  ownernumber: process.env.Owner_Number || "212608432044",
+  adress: process.env.Continent || "Asia, India, Assam , marocco",
+  timezone: process.env.TimeZone || "Asia/Kolkata , marocco", 
   instagramId: process.env.Insta || "8.08_only_mine",
   email: process.env.Email_Id || "example@example.com",
-  warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "Enter",
+  warns: process.env.Warns_Limits || 5,
+  mongoUrl: process.env.MongoDB || "https://cloud.mongodb.com/v2/656b2be82d73fe14e90394ba#/overview",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
-  sessionId: process.env.SESSION_ID || "Queen Anya", 
+  sessionId: process.env.SESSION_ID || "UGJLZ1h_Queen-Anya_pY2c=", 
   auto_read_status : process.env.AUTO_READ_STATUS || "true",
   alwaysonline: process.env.ALWAYS_ONLINE || "true", 
   readmessage: process.env.READ_MESSAGE || "true", 
